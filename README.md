@@ -5,9 +5,12 @@
 第一个文件夹common就是普通的爬虫操作；  
 第二个文件夹ip_from_myself是自己先创建一个ip代理池，然后在爬虫文件中调用自己ip代理池中的ip，[构建自己的ip代理池](https://github.com/hfxjd9527/ip_proxy_pool)  
 第三个文件夹ip_from_other是使用[崔神的ip代理池](https://github.com/Python3WebSpider/ProxyPool)  
-第四个文件夹multiprocess是分别使用自己的ip代理池和崔神的ip代理池的多进程爬虫
-
-注：
+第四个文件夹multiprocess是分别使用自己的ip代理池和崔神的ip代理池的多进程爬虫  
+  
+------
+------
+  
+注：  
 1.如果使用[崔神的ip代理池](https://github.com/Python3WebSpider/ProxyPool)，在执行代码之前，需要先开启ip_proxy  
 开启方法：  
 进入到ProxyPool目录，按住shift点鼠标右键，选择“在此处打开打开命令窗口”，然后输入：  
